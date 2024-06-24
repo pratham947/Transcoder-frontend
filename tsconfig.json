@@ -1,8 +1,13 @@
 {
   "compilerOptions": {
     // ...
+    "target": "es2020",           // or es2022, esnext
+    "moduleResolution": "node16", // or nodenext, bundler
+    "strict": true,
     "jsx": "react-jsx",
     "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
