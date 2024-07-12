@@ -1,18 +1,19 @@
+
+
+
 {
   "compilerOptions": {
-    // ...
-    "target": "es2020",           // or es2022, esnext
-    "module": "Node16", 
-    "moduleResolution": "node16", // or nodenext, bundler
+    "target": "es2020",
+    "module": "CommonJS",
+    "moduleResolution": "node", // Change to "node" for CommonJS modules
     "strict": true,
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     }
-    // ...
   }
 }
